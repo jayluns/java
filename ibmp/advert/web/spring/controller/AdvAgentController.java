@@ -1,4 +1,4 @@
-package com.kingdee.ais.ibmp.view.advert.web.spring.controller;
+﻿package com.kingdee.ais.ibmp.view.advert.web.spring.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -62,6 +62,8 @@ public class AdvAgentController extends MultiActionControllerImpl {
 	 * @throws
 	 */
 	public  List<DataDictionaryInfo>  getAdvAgentLevel(){
+
+		//ca
 		Map dictionaryMap = new HashMap();
 		DataDictionaryInfo dataDictionaryInfo = new DataDictionaryInfo();
 		dataDictionaryInfo.setFDataId(Dictionary.AGENT_LEVEL);            //得到代理商级别
