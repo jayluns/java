@@ -38,7 +38,7 @@ import com.kingdee.ais.ibmp.view.util.NumberFormatUtil;
  */
 @SuppressWarnings({ "rawtypes", "unchecked" })
 public class AdvAgentController extends MultiActionControllerImpl {
-	
+	/hehe
 	IAdvAgentService   advAgentService = null;
 	IDictionaryService dictionaryService = null;
 	IAdvAgentNumberService advAgentNumberService = null;
